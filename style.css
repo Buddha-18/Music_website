@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+  font-family:"Roboto",sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    
+}
+button{
+    padding: 10px 15px;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+.nav-logo{
+    font-style:oblique;
+    font-size: 30px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.nav-content ul{
+    display: flex;
+    gap:20px;
+}
+.nav-content ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.nav-content ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: rgb(39, 9, 129);
+}
+
+/* hero-section */
+
+.hero-section{
+   background-image: url(/music_website/images/hero_image\ \(1\).png); 
+   height: 100vh;
+   color: white;
+   display:grid ;
+   place-items:center;
+   text-align: center;
+   background-size: cover;
+}
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+h1{
+    font-style:oblique;
+    font-size: 30px;
+}
+
+.hero-section .container p{
+    font-size: 15px;
+}
+
+/* Music Section */
+
+.music-section{
+    background-color: rgb(46, 18, 107);
+    color: white;
+    height: 70vh;
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.music-section .container p{
+    font-size: 13px;
+    font-weight: 100;
+}
+.music-section .container .trail-btn{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.ipad-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.secondary-btn{
+    background-color: rgb(46, 18, 107);
+    color: white;
+}
+/* about music */
+
+.about-music{
+    margin-top: 500px;
+    display: grid;
+    place-items: center;
+    gap:20px;
+}
+.about-music img{
+    height: 600px;
+    width: 600px;
+    
+}
+
+/* vedio section */
+.video-section {
+    display: grid;
+    place-items:center ;
+    margin-top: -490px; 
+}
+.video-section  video{
+    height: 330px;
+    width:450px;
+}
+/* Card section */
+.gift-card{
+    margin-top: 100px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.card-content .secondary-btn{
+    height: 40px;
+    width: 100px;
+}
+/* footer */
+footer{
+    color: white;
+}
+.upper-footer {
+    background-color:#1B0058 ;
+    padding: 20px 100px; 
+}
+.upper-footer .footer-content h4{
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    
+}
+.upper-footer .footer-content ul li{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.lower-footer{
+    background-color:#270082;
+    display: flex;
+    justify-content: center;
+    padding:15px 0px;
+}
